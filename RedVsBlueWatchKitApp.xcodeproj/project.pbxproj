@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEDC43641AB843AA00353121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDC43631AB843AA00353121 /* AppDelegate.swift */; };
+		EEDC43661AB843AA00353121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDC43651AB843AA00353121 /* ViewController.swift */; };
+		EEDC43691AB843AA00353121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDC43671AB843AA00353121 /* Main.storyboard */; };
+		EEDC436B1AB843AA00353121 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDC436A1AB843AA00353121 /* Images.xcassets */; };
+		EEDC436E1AB843AA00353121 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEDC436C1AB843AA00353121 /* LaunchScreen.xib */; };
+		EEDC437A1AB843AB00353121 /* RedVsBlueWatchKitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDC43791AB843AB00353121 /* RedVsBlueWatchKitAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEDC43741AB843AB00353121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC43561AB843AA00353121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEDC435D1AB843AA00353121;
+			remoteInfo = RedVsBlueWatchKitApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEDC435E1AB843AA00353121 /* RedVsBlueWatchKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedVsBlueWatchKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDC43621AB843AA00353121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDC43631AB843AA00353121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEDC43651AB843AA00353121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEDC43681AB843AA00353121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEDC436A1AB843AA00353121 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEDC436D1AB843AA00353121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EEDC43731AB843AB00353121 /* RedVsBlueWatchKitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedVsBlueWatchKitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDC43781AB843AB00353121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDC43791AB843AB00353121 /* RedVsBlueWatchKitAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedVsBlueWatchKitAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEDC435B1AB843AA00353121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDC43701AB843AB00353121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEDC43551AB843AA00353121 = {
+			isa = PBXGroup;
+			children = (
+				EEDC43601AB843AA00353121 /* RedVsBlueWatchKitApp */,
+				EEDC43761AB843AB00353121 /* RedVsBlueWatchKitAppTests */,
+				EEDC435F1AB843AA00353121 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEDC435F1AB843AA00353121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEDC435E1AB843AA00353121 /* RedVsBlueWatchKitApp.app */,
+				EEDC43731AB843AB00353121 /* RedVsBlueWatchKitAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEDC43601AB843AA00353121 /* RedVsBlueWatchKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				EEDC43631AB843AA00353121 /* AppDelegate.swift */,
+				EEDC43651AB843AA00353121 /* ViewController.swift */,
+				EEDC43671AB843AA00353121 /* Main.storyboard */,
+				EEDC436A1AB843AA00353121 /* Images.xcassets */,
+				EEDC436C1AB843AA00353121 /* LaunchScreen.xib */,
+				EEDC43611AB843AA00353121 /* Supporting Files */,
+			);
+			path = RedVsBlueWatchKitApp;
+			sourceTree = "<group>";
+		};
+		EEDC43611AB843AA00353121 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEDC43621AB843AA00353121 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEDC43761AB843AB00353121 /* RedVsBlueWatchKitAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEDC43791AB843AB00353121 /* RedVsBlueWatchKitAppTests.swift */,
+				EEDC43771AB843AB00353121 /* Supporting Files */,
+			);
+			path = RedVsBlueWatchKitAppTests;
+			sourceTree = "<group>";
+		};
+		EEDC43771AB843AB00353121 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEDC43781AB843AB00353121 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEDC435D1AB843AA00353121 /* RedVsBlueWatchKitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDC437D1AB843AB00353121 /* Build configuration list for PBXNativeTarget "RedVsBlueWatchKitApp" */;
+			buildPhases = (
+				EEDC435A1AB843AA00353121 /* Sources */,
+				EEDC435B1AB843AA00353121 /* Frameworks */,
+				EEDC435C1AB843AA00353121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedVsBlueWatchKitApp;
+			productName = RedVsBlueWatchKitApp;
+			productReference = EEDC435E1AB843AA00353121 /* RedVsBlueWatchKitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEDC43721AB843AB00353121 /* RedVsBlueWatchKitAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDC43801AB843AB00353121 /* Build configuration list for PBXNativeTarget "RedVsBlueWatchKitAppTests" */;
+			buildPhases = (
+				EEDC436F1AB843AB00353121 /* Sources */,
+				EEDC43701AB843AB00353121 /* Frameworks */,
+				EEDC43711AB843AB00353121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEDC43751AB843AB00353121 /* PBXTargetDependency */,
+			);
+			name = RedVsBlueWatchKitAppTests;
+			productName = RedVsBlueWatchKitAppTests;
+			productReference = EEDC43731AB843AB00353121 /* RedVsBlueWatchKitAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEDC43561AB843AA00353121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "jonas-baer.com";
+				TargetAttributes = {
+					EEDC435D1AB843AA00353121 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EEDC43721AB843AB00353121 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EEDC435D1AB843AA00353121;
+					};
+				};
+			};
+			buildConfigurationList = EEDC43591AB843AA00353121 /* Build configuration list for PBXProject "RedVsBlueWatchKitApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEDC43551AB843AA00353121;
+			productRefGroup = EEDC435F1AB843AA00353121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEDC435D1AB843AA00353121 /* RedVsBlueWatchKitApp */,
+				EEDC43721AB843AB00353121 /* RedVsBlueWatchKitAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEDC435C1AB843AA00353121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDC43691AB843AA00353121 /* Main.storyboard in Resources */,
+				EEDC436E1AB843AA00353121 /* LaunchScreen.xib in Resources */,
+				EEDC436B1AB843AA00353121 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDC43711AB843AB00353121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEDC435A1AB843AA00353121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDC43661AB843AA00353121 /* ViewController.swift in Sources */,
+				EEDC43641AB843AA00353121 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDC436F1AB843AB00353121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDC437A1AB843AB00353121 /* RedVsBlueWatchKitAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEDC43751AB843AB00353121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEDC435D1AB843AA00353121 /* RedVsBlueWatchKitApp */;
+			targetProxy = EEDC43741AB843AB00353121 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEDC43671AB843AA00353121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDC43681AB843AA00353121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEDC436C1AB843AA00353121 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDC436D1AB843AA00353121 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEDC437B1AB843AB00353121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEDC437C1AB843AB00353121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEDC437E1AB843AB00353121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedVsBlueWatchKitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEDC437F1AB843AB00353121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedVsBlueWatchKitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEDC43811AB843AB00353121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RedVsBlueWatchKitAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedVsBlueWatchKitApp.app/RedVsBlueWatchKitApp";
+			};
+			name = Debug;
+		};
+		EEDC43821AB843AB00353121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RedVsBlueWatchKitAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedVsBlueWatchKitApp.app/RedVsBlueWatchKitApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEDC43591AB843AA00353121 /* Build configuration list for PBXProject "RedVsBlueWatchKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDC437B1AB843AB00353121 /* Debug */,
+				EEDC437C1AB843AB00353121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDC437D1AB843AB00353121 /* Build configuration list for PBXNativeTarget "RedVsBlueWatchKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDC437E1AB843AB00353121 /* Debug */,
+				EEDC437F1AB843AB00353121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEDC43801AB843AB00353121 /* Build configuration list for PBXNativeTarget "RedVsBlueWatchKitAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDC43811AB843AB00353121 /* Debug */,
+				EEDC43821AB843AB00353121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEDC43561AB843AA00353121 /* Project object */;
+}
