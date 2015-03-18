@@ -1,15 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="RedVsBlueWatchKitApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="170" alignment="left" layout="vertical" id="pvJ-fF-dkf">
+                            <items>
+                                <label width="1" alignment="left" text="Cool" id="iGh-Da-5gQ"/>
+                                <slider width="1" alignment="left" verticalAlignment="center" value="5" maximum="5" steps="5" id="WCE-f5-8wB">
+                                    <connections>
+                                        <action selector="changedSlider:" destination="AgC-eL-Hgc" id="M4X-qP-1I0"/>
+                                    </connections>
+                                </slider>
+                                <switch width="1" alignment="left" verticalAlignment="bottom" value="YES" title="Blue?" id="ljN-Ca-eJA">
+                                    <connections>
+                                        <action selector="changedBlueRedSetting:" destination="AgC-eL-Hgc" id="fha-FJ-iAz"/>
+                                    </connections>
+                                </switch>
+                                <button width="1" alignment="center" verticalAlignment="bottom" title="Reset" id="Tqo-Po-8NC">
+                                    <connections>
+                                        <action selector="resetButtonPressed" destination="AgC-eL-Hgc" id="18u-jD-lmT"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <color key="backgroundColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="colorChangingSwitch" destination="ljN-Ca-eJA" id="YM7-Qd-BuS"/>
+                        <outlet property="groupForBackgroundColor" destination="pvJ-fF-dkf" id="iL0-VK-PEg"/>
+                        <outlet property="sliderForColorAdj" destination="WCE-f5-8wB" id="aqE-SO-QdQ"/>
+                        <outlet property="viewCurrentTempText" destination="iGh-Da-5gQ" id="zHj-Oe-JUg"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="478" y="439.5"/>
         </scene>
     </scenes>
 </document>
